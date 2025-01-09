@@ -1,0 +1,60 @@
+
+body {
+    background-color: #e9ecef;
+    color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+h1, h2, h5 {
+    text-align: center;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#current-weather, #forecast {
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-4, .display-1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+}
